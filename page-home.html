@@ -77,11 +77,24 @@
     </div>
 
   </div>
+  <script>
+    let element = document.getElementById("homeIcon");
+    let img1 = "Assets/images/home.svg";
+    let img2 = "Assets/images/Ellipse 8.png";
+    element.addEventListener('click', (e) => {
+      if(element.src === "./Assets/images/home.svg"){
+        element.src = "./Assets/images/Ellipse 8.png";
+      }
+      else{
+        element.src = "./Assets/images/home.svg"
+      }
+    })
+  </script>
     
     <!-- NavBar -->
     <nav class="nav">
-      <a href="page-home.html" class="nav__link">
-          <img src="Assets/images/home.svg" class="nav__icon"></img>
+      <a href="#" class="nav__link">
+          <img src="Assets/images/home.svg" class="nav__icon" id="homeIcon"></img>
           <span class="nav__text">Início</span>
       </a>
       <a href="page-pesquisa.html" class="nav__link nav__link--active">
