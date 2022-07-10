@@ -91,6 +91,19 @@ p{
   color: #F03148;
 }
 
+.txt-cont-title{
+  color: #062553;
+}
+
+.txt-cont-sub-subtitle{
+  color: #0D6EFD99;
+  display: inline-flex;
+}
+
+.txt-cont-subtitle{
+  color: #2C599BCC;
+}
+
 .carousel-indicators{
   position: relative;
   margin-top: 3%;
@@ -105,7 +118,6 @@ p{
 }
 
 .name-sections{
-  text-decoration: none;
   color: black;
 }
 
@@ -154,7 +166,7 @@ p{
 
 .modalTwo .modal-content{
   border-radius: 15px;
-  margin-top: 50%;
+  margin-top: 82%;
   margin-left: 4.8%;
   width: 90%;
 }
@@ -173,11 +185,15 @@ p{
   width: 96%;
   height: 355px;
   margin-left: 1.8%;
-  margin-top: 35%;
+  margin-top: 65%;
 }
 
-.modalThree .modal-content button{
+button{
   border: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 #bottom-teste{
@@ -196,16 +212,41 @@ color: #FFFFFF;
 border-radius: 10px;
 }
 
+#bt-more-conteudo{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 127px;
+gap: 10px;
 
+width: 100%;
+height: 48px;
 
+/* Primary/Blue/100 */
 
-  /* .accordion-button:not(.collapsed)::after {
-    
-    background-image: url("Assets/images/plus.svg"); 
-    
-  }
-  .accordion-button::after {
-    
-    background-image: url("Assets/images/plus.svg"); 
-    
-  } */
+background: #0D6EFD;
+border-radius: 10px;
+
+}
+
+#bt-questionario-conteudo{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 127px;
+gap: 10px;
+
+width: 100%;
+height: 48px;
+
+/* Primary/Blue/100 */
+background-color: #FFFFFF;
+border: 1.5px solid #0D6EFD;
+border-radius: 10px;
+}
+
+.bts-conteudos{
+  margin-top: 30%;
+}
