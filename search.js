@@ -6,7 +6,7 @@ let percConteudos = [];
 conteudosBusca = [{
     "nome": "Engasgo Lactante",
     "tecnico": "OVACE Lactante",
-    "pagina": "page-conteudo-engasgolactente.html",
+    "pagina": "page-conteudo-blslactente.html",
     "icone": "iconBaby"
   },
   {

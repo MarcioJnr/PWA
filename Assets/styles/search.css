@@ -48,3 +48,7 @@ a {
     padding-bottom: 16px;
     margin-left: 32px;
 }
+
+.form-inline{
+    width: 70%;
+}

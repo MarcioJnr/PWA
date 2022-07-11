@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Sammakko</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="Assets/bootstrapfiles/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="Assets/styles/nav.css">
+    <link rel="stylesheet" href="Assets/styles/style.css">
+</head>
+<body>
+    <!-- Botoes-Top -->
+  <!-- Navbar Top -->
+  <div class="nav-top px-3">
+    <div class="nav-top-names">
+      <a id="bt-voltar" href="index.html">
+        <img src="Assets/images/bt-voltar-azul.svg"></img>
+      </a>
+      <h2 class="txt-color1 mt-2">Ver Informações</h2>
+    </div>
+  <a id="bt-mais" data-bs-toggle="modal" href="#myModal1">
+    <img src="Assets/images/bt-mais-blue.svg"></img>
+  </a>
+</div>
+  <div class="container px-3 mt-3">
+      <!-- Modal -->
+      <div class="modalOne">
+        <div class="modal fade" id="myModal1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <a href="page-faq.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-faq.svg" alt="">
+                      <h3 class="mt-1">FAQ</h3>
+                    </a>
+                    <a href="#" class="modal-items name-sections">
+                      <img src="Assets/images/icon-settings.svg" alt="">
+                      <h3 class="mt-1">Configurações</h3>
+                    </a> 
+                    <a href="#" class="modal-items name-sections">
+                      <img src="Assets/images/icon-about.svg" alt="">
+                      <h3 class="mt-1">Sobre</h3>
+                    </a>
+                    <a class="modal-items name-sections" data-bs-toggle="modal" href="#myModal2">
+                      <img src="Assets/images/icon-logout.svg" alt="">
+                      <h3 class="mt-1">Sair</h3>
+                    </a>   
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modalTwo">
+        <div class="modal" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body mx-2">
+                <h2 class="mt-2 mb-3">Sair do aplicativo</h2>
+                <p>Essa ação levará você para a saída
+                  do aplicativo de Primeiros Socorros. Deseja realmente sair?</p>
+                <div class="items-modalTwo">
+                  <a data-bs-dismiss="modal"><p class="txt-color1">Cancelar</p></a>
+                  <a onclick="closeApp();"><p class="txt-color1">Sair</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container px-3 mt-3">
+        <!-- Navbar Top -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <div class="d-flex flex-column">
+                    <h1 class="txt-cont-title"><b>Sobre o PERC</b></h1>
+                    <h5 class="txt-cont-title">Quem é e onde atua ?</h5>
+                </div>
+              </button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h5>O PERC é um projeto de extensão da Faculdade de Medicina da Universidade Federal do Ceará – UFC, fundado em setembro 1996 e atualmente vinculado ao Deptº de Medicina 
+                    Clínica desta universidade, sob orientação da Prof. Dra. Sandra Nívea dos Reis Saraiva Falcão e coorientação 
+                    dos Drs. Arnaldo Aires Peixoto Júnior, Carlos Roberto Martins Rodrigues Sobrinho, Rohden Leite Varela Filho e Weiber Silva Xavier.</h5>
+                <h5 class="mt-4">O PERC-PED, projeto fundado em 2019 vinculado ao PERC, é um projeto de extensão vinculado ao 
+                    Deptº de Saúde Materno Infantil, sob orientação da Prof. Dra. Virna Costa e Silva.</h5>
+                <h5 class="mt-4">Os objetivos gerais do PERC são: a defesa da vida, sua manutenção através de um socorro adequado a vítimas de acidentes diversos e a disseminação social, científica
+                     e acadêmica dos conhecimentos acerca de primeiros socorros e Reanimação Cardiorrespiratória.</h5>
+                </div>
+            </div>
+          </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <div class="d-flex flex-column">
+                      <h1 class="txt-cont-title"><b>Sobre os Desenvolvedores</b></h1>
+                      <h5 class="txt-cont-title">Quem está na equipe</h5>
+                  </div>
+                </button>
+              </h3>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bls-conteudos-3 mb-4">
+                        <img src="Assets/images/gabriel.jpg" style="width: 150px; height: 150px;">
+                        <div class="d-flex flex-column">
+                            <h2 class="txt-cont-title">Gabriel Santana</h2>
+                            <h4 class="txt-cont-title">Designer UI/UX</h4>
+                        </div>
+                      </div>
+                      <div class="bls-conteudos-3 mb-4">
+                        <img src="Assets/images/thiago.jpeg" style="width: 150px; height: 150px;">
+                        <div class="d-flex flex-column">
+                            <h2 class="txt-cont-title">Thiago Pires</h2>
+                            <h4 class="txt-cont-title">Designer UI/UX</h4>
+                        </div>
+                      </div>
+                      <div class="bls-conteudos-3 mb-4">
+                        <img src="Assets/images/ivina.jpg" style="width: 150px; height: 150px;">
+                        <div class="d-flex flex-column">
+                            <h2 class="txt-cont-title">Ívina Lara</h2>
+                            <h4 class="txt-cont-title">Designer UI/UX</h4>
+                        </div>
+                      </div>
+                      <div class="bls-conteudos-3 mb-4">
+                        <img src="Assets/images/levi.jpeg" style="width: 150px; height: 150px;">
+                        <div class="d-flex flex-column">
+                            <h2 class="txt-cont-title">Levi Ferreira</h2>
+                            <h4 class="txt-cont-title">Designer UI/UX</h4>
+                        </div>
+                      </div>
+                      <div class="bls-conteudos-3 mb-4">
+                        <img src="Assets/images/marcio.jpeg" style="width: 150px; height: 150px;">
+                        <div class="d-flex flex-column">
+                            <h2 class="txt-cont-title">Márcio Júnior</h2>
+                            <h4 class="txt-cont-title">Designer UI/UX</h4>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+      </div>
+    </div>
+        
+      <nav class="nav">
+        <a href="index.html" class="nav__link">
+            <img src="Assets/images/home.svg" class="nav__icon"></img>
+            <span class="nav__text">Início</span>
+        </a>
+        <a href="page-pesquisa.html" class="nav__link">
+            <img src="Assets/images/search.svg" class="nav__icon"></img>
+            <span class="nav__text">Busca</span>
+        </a>
+        <a href="page-emergencia.html" class="nav__link">
+            <img src="Assets/images/emergency.svg" class="nav__icon"></img>
+            <span class="nav__text">Emergência</span>
+        </a>
+        <a href="page-testes.html" class="nav__link">
+            <img src="Assets/images/test.svg" class="nav__icon"></img>
+            <span class="nav__text">Teste</span>
+        </a>
+      </nav>
+        <!-- Scripts Only -->
+        <script src="Assets/bootstrapfiles/jquery/dist/jquery.js"></script>
+        <script src="Assets/bootstrapfiles/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+    </html>
