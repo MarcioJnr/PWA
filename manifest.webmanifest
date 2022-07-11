@@ -1,12 +1,12 @@
 {
-    "short_name": "SammakkoApp",
-    "name": "Aplicativo Sammakko",
+    "short_name": "PERC",
+    "name": "Perc Primeiros Socorros",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#ffffff",
     "theme-color": "#ffffff",
-    "background_color": "#000000",
-    "background-color": "#000000",
+    "background_color": "#ffffff",
+    "background-color": "#ffffff",
     "description": "Aplicativo da equipe Sammakko e PERC",
     "icons": [
       {
