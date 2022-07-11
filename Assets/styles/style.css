@@ -219,12 +219,8 @@ justify-content: center;
 align-items: center;
 padding: 16px 127px;
 gap: 10px;
-
 width: 100%;
 height: 48px;
-
-/* Primary/Blue/100 */
-
 background: #0D6EFD;
 border-radius: 10px;
 
@@ -237,16 +233,115 @@ justify-content: center;
 align-items: center;
 padding: 16px 127px;
 gap: 10px;
-
 width: 100%;
 height: 48px;
-
-/* Primary/Blue/100 */
 background-color: #FFFFFF;
 border: 1.5px solid #0D6EFD;
 border-radius: 10px;
 }
 
+#bt-prosseguir-conteudo{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 127px;
+gap: 10px;
+width: 100%;
+height: 48px;
+background: #F03148;
+border-radius: 10px;
+}
+
+#bt-voltar-video{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+width: 100%;
+height: 48px;
+background-color: #FFFFFF;
+border: 1.5px solid #F03148;
+border-radius: 10px;
+}
+
 .bts-conteudos{
   margin-top: 30%;
+}
+
+.bls-1{
+  margin-top: 30%;
+  margin-bottom: 40%;
+}
+
+.bls-conteudos-2{
+  margin-top: 4.8rem;
+}
+
+.bls-conteudos-3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 11px;
+}
+
+.slider{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 8px 16px 24px;
+position: fixed;
+width: 100%;
+height: 107px;
+left: 0px;
+bottom: 0px;
+background-color: #FFFFFF;
+}
+
+.slider-box{
+  width: 82px;
+  height: 75px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+}
+
+.slider-box-center{
+  position: absolute;
+  width: 76px;
+  height: 75px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  margin-left: 35%;
+}
+
+.slider-text{
+  position: absolute;
+  width: 27px;
+  height: 21px;
+  left: 40%;
+  top: 35%;
+  text-align: center;
+}
+
+.slider-arrow-left{
+  position: absolute;
+  margin-left: 5.8%;
+  top: 26.5%;
+}
+
+.slider-arrow-right{
+  position: absolute;
+  margin-left: 7%;
+  top: 26.5%;
+}
+
+.p-fixed{
+  position: fixed; 
+  top: 0; 
+  width: 100%;
 }

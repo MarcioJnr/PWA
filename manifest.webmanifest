@@ -10,7 +10,7 @@
     "description": "Aplicativo da equipe Sammakko e PERC",
     "icons": [
       {
-        "src": "Assets/images/Yahoo-Messenger-icon.png",
+        "src": "Assets/images/logo256.png",
         "type": "image/png",
         "sizes": "256x256"
       }
