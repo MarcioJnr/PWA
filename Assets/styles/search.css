@@ -1,0 +1,51 @@
+
+.form-control:focus {
+    box-shadow: none;
+  }
+
+.iconPesquisa {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.form-control{
+    padding-left: 0px;
+}
+
+.container{
+    margin-top: 32px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#conteudosList{
+    color: #062553;
+    font-size: 14px;
+}
+
+.list {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+#iconOVACE{
+    background: url('../images/iconebabyOVACE.svg') no-repeat left top;
+    background-position-y: 35%;
+    padding-top: 16px;
+    padding-left: 44px;
+    padding-bottom: 16px;
+    margin-left: 32px;
+}
+
+#iconBLS{
+    background: url('../images/iconebabyBLS.svg') no-repeat left top;
+    background-position-y: 35%;
+    padding-top: 16px;
+    padding-left: 44px;
+    padding-bottom: 16px;
+    margin-left: 32px;
+}
