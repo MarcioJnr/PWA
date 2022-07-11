@@ -8,6 +8,11 @@
     height: 1.6rem;
 }
 
+.form-inline{
+    width: 85%;
+    padding-top: 1px;
+}
+
 .form-control{
     padding-left: 0px;
 }
@@ -49,3 +54,4 @@ a {
     padding-bottom: 16px;
     margin-left: 32px;
 }
+

@@ -2,7 +2,7 @@ const conteudosList = document.getElementById("conteudosList");
 const searchBar = document.getElementById("searchBar")
 let percConteudos = [];
 
-//Lista JSON com os nomes e os nomes técnicos dos conteúdos e utilizados na busca.
+//Lista JSON com os nomes casuais e os nomes técnicos dos conteúdos e utilizados na busca.
 conteudosBusca = [{
     "nome": "Engasgo Lactante",
     "tecnico": "OVACE Lactante",
@@ -56,6 +56,7 @@ const loadConteudos = async () => {
 const mostrarConteudos = (conteudos) => {
     const htmlString = conteudos
         .map((conteudo) => {
+            IsNull();
             return `
             <li class="conteudo border-bottom"" id=${conteudo.icone} >
                 <a href=${conteudo.pagina}>
@@ -66,5 +67,12 @@ const mostrarConteudos = (conteudos) => {
         .join('');
     conteudosList.innerHTML = htmlString;
 };
+
+function IsNull(){
+    if($('#searchBar').val() == "") {
+        $('#conteudosList').hide();}
+    else {
+        $('#conteudosList').show();}
+}
 
 loadConteudos();
