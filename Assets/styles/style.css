@@ -129,6 +129,14 @@ p{
 
 .conteudos{
   width: 163.5px;
+  height: 120px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+}
+
+.conteudos2{
+  width: 163.5px;
   height: 101px;
   background: #FFFFFF;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 5px rgba(0, 0, 0, 0.03);
@@ -245,7 +253,7 @@ border-radius: 10px;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 16px 127px;
+padding: 16px;
 gap: 10px;
 width: 100%;
 height: 48px;

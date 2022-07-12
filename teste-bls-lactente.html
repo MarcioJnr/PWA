@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Sammakko</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="Assets/bootstrapfiles/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="Assets/styles/nav.css">
+    <link rel="stylesheet" href="Assets/styles/style.css">
+    <link rel="stylesheet" href="Assets/styles/questions.css">
+</head>
+<body>
+  <div class="nav-top px-3 bg-color" id="navblue">
+    <div class="nav-top-names mt-2">
+      <h2 class="text-top-color">BLS - Lactente</h2>
+    </div>
+    <a id="bt-mais" data-bs-toggle="modal" href="#myModal1">
+      <img src="Assets/images/bt-mais-branco.svg"></img>
+    </a>
+</div>
+<div class="nav-top px-3" id="navwhite">
+  <div class="nav-top-names">
+    <h2 class="txt-color1 mt-2">BLS Lactente</h2>
+  </div>
+</div>
+  <div class="container px-3 mt-3">
+      <!-- Modal -->
+      <div class="modalOne">
+        <div class="modal fade" id="myModal1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <a href="page-faq.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-faq.svg" alt="">
+                      <h3 class="mt-2">FAQ</h3>
+                    </a>
+                    <a href="#" class="modal-items name-sections">
+                      <img src="Assets/images/icon-settings.svg" alt="">
+                      <h3 class="mt-2">Configurações</h3>
+                    </a> 
+                    <a href="page-sobre.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-about.svg" alt="">
+                      <h3 class="mt-2">Sobre</h3>
+                    </a>
+                    <a class="modal-items name-sections" data-bs-toggle="modal" href="#myModal2">
+                      <img src="Assets/images/icon-logout.svg" alt="">
+                      <h3 class="mt-2">Sair</h3>
+                    </a>   
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modalTwo">
+        <div class="modal" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body mx-2">
+                <h1 class="mt-2 mb-3"><b>Sair do aplicativo</b></h1>
+                <h6>Essa ação levará você para a saída
+                  do aplicativo de Primeiros Socorros. Deseja realmente sair?</h6>
+                <div class="items-modalTwo mt-4">
+                  <a data-bs-dismiss="modal"><h6 class="txt-color1">Cancelar</h6></a>
+                  <a onclick="closeApp();"><h6 class="txt-color1">Sair</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Navbar Top --> 
+    <div class="container px-3 mt-3">
+                
+        <form class="questions_box">
+    
+          <div id="question-1">
+            <h3 class="txt-cont-title">1) Qual a frequência adequada mínima para as compressões torácicas em lactentes?</h3>
+            <div class="all-questions">
+              <label for="favelang" class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) 60 compressões por minuto.</h4>
+                <input id="question-1-answer-a" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) 80 compressões por minuto.</h4>
+                  <input id="question-1-answer-b" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) 100 compressões por minuto.</h4>
+                  <input id="question-1-answer-c" type="radio" name="favelang" value="1" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) 120 compressões por minuto.</h4>
+                  <input id="question-1-answer-d" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">e) 150 compressões por minuto.</h4>
+                  <input id="question-1-answer-e" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-2">
+            <h3 class="txt-cont-title">2) Assinale a afirmativa correta a respeito da relação compressões/ventilações em lactentes.</h3>
+            <div class="all-questions">
+              <label for="favelang" class="question-style">
+                <p class="txt-cont-title ms-4 mt-1">a) Em caso de 1 socorrista, realizar as compressões e ventilações na relação 15:2.</p>
+                <input id="question-2-answer-a" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">b) Em caso de 1 socorrista, realizar as compressões e ventilações na relação 30:2.</p>
+                  <input id="question-2-answer-b" type="radio" name="favelang" value="1" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">c) Independentemente do número de socorristas, as compressões e ventilações em lactentes devem ser sempre realizadas na frequência 15:2.</p>
+                  <input id="question-2-answer-c" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">d) Em caso de 2 socorristas, realizar as compressões e ventilações na relação 30:2.</p>
+                  <input id="question-2-answer-d" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">e) Em casos em que o socorrista não desejar realizar as ventilações, as compressões podem ser feitas de maneira ininterrupta proporcionando a mesma eficácia da RCP.</p>
+                  <input id="question-2-answer-e" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+        
+          <div id="question-3">
+            <h3 class="txt-cont-title">3) Sobre as técnicas de compressões torácicas em crianças menores de 1 ano, assinale o item correto.</h3>
+            <div class="all-questions mt-2">
+              <label for="favelang" class="question-style">
+                <p class="txt-cont-title ms-4 mt-1">a) Independentemente do número de socorristas, as compressões devem ser feitas preferencialmente com a técnica dos dois polegares-mão circundando o tórax.</p>
+                <input id="question-3-answer-a" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">b) Se apenas 1 socorrista estiver disponível, as compressões devem ser feitas preferencialmente com a técnica dos dois polegares-mão circundando o tórax.</p>
+                  <input id="question-3-answer-b" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">c) Se 2 socorristas estiverem disponíveis, a técnica preferível é a dos dois polegares-mão circundando o tórax.</p>
+                  <input id="question-3-answer-c" type="radio" name="favelang" value="1" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">d) Se 2 socorristas estiverem disponíveis, a técnica preferível é a dos dois dedos.</p>
+                  <input id="question-3-answer-d" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <p class="txt-cont-title ms-4 mt-1">e) Assim como na RCP em crianças maiores de 1 ano, as compressões devem ser feitas com uma ou duas mãos.</p>
+                  <input id="question-3-answer-e" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-4">
+            <h3 class="txt-cont-title">4) Sobre o Suporte Básico de Vida em lactentes, marque o item correto.</h3>
+            <div class="all-questions">
+              <label for="favelang" class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) O DEA somente poderá ser utilizado caso haja pás pediátricas.</h4>
+                <input id="question-4-answer-a" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) A profundidade das compressões deve ser no mínimo, um terço da profundidade do tórax, cerca de 10 cm.</h4>
+                  <input id="question-4-answer-b" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) Caso não exista suspeita de lesão cervical, deve ser feita a hiperextensão cervical para abertura de via aérea.</h4>
+                  <input id="question-4-answer-c" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) Caso exista suspeita de lesão cervical, a elevação do queixo é a manobra mais indicada para abertura de via aérea.</h4>
+                  <input id="question-4-answer-d" type="radio" name="favelang" value="1" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">e) Em pacientes em gasping não devem ser feitas ventilações de resgate, sendo indicada apenas observação.</h4>
+                  <input id="question-4-answer-e" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h3 class="txt-cont-title">5) Em casos de parada respiratória em lactentes, marque o item que apresenta a conduta adequada.</h3>
+            <div class="all-questions">
+              <label for="favelang" class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) Devem ser administradas as ventilações de resgate a cada 1 a 2 segundos.</h4>
+                <input id="question-5-answer-a" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) Devem ser administradas as ventilações de resgate a cada 2 a 3 segundos.</h4>
+                  <input id="question-5-answer-b" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) Devem ser administradas as ventilações de resgate a cada 3 a 5 segundos.</h4>
+                  <input id="question-5-answer-c" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) Devem ser administradas as ventilações de resgate a cada 5 a 6 segundos.</h4>
+                  <input id="question-5-answer-d" type="radio" name="favelang" value="1" style="position: absolute;">
+                </label>
+                <label for="favelang" class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">e) Deve ser iniciada a RCP.</h4>
+                  <input id="question-5-answer-e" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-6"> 
+            <div class="container px-3">
+             <div class="bls-conteudos-2 text-center">
+                 <img src="Assets/images/concluido.svg" class="mt-5" alt="">
+                 <h4 class="txt-cont-title mt-4">Você concluiu o teste!</h4>
+                 <h4 id="printtotalscore2">Você acertou <span id="printtotalscore"></span> das questões.</h4>
+             </div>
+             <div class="bts-conteudos">
+               <a href="page-testes.html" id="bt-prosseguir-conteudo"><span class="text-top-color">VER OUTROS TESTES</span></a>
+               <a href="index.html" id="bt-voltar-video" class=" mt-4"><span class="txt-color2">TELA INICIAL</span></a>
+             </div>
+           </div> 
+          </div>   
+      </form>
+      </div>
+
+
+    
+      <div class="slider" id="slidezin">
+        <div class="slider-box-center"><h3 class="slider-text txt-color1" id="page-question">1/5</h3></div>  
+            <a id="previous-question">
+          <div class="slider-box"></div>
+          <img src="Assets/images/seta-esquerda-on.svg" class="slider-arrow-left" alt="">
+          </a>    
+          <a id="next-question">
+            <div class="slider-box"></div>
+            <img src="Assets/images/seta-direita-on.svg" class="slider-arrow-right" alt="">
+            </a>
+    </div>
+    <!-- Scripts Only -->
+    <script src="Assets/bootstrapfiles/jquery/dist/jquery.js"></script>
+    <script src="Assets/bootstrapfiles/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>

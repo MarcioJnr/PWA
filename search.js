@@ -6,23 +6,27 @@ let percConteudos = [];
 conteudosBusca = [{
     "nome": "Engasgo Lactante",
     "tecnico": "OVACE Lactante",
-    "pagina": "page-conteudo-blslactente.html",
+    "popular": "",
+    "pagina": "page-faq.html",
     "icone": "iconBaby"
   },
   {
     "nome": "Engasgo Criança",
     "tecnico": "OVACE Criança",
+    "popular": "",
     "pagina": "page-faq.html",
     "icone": "iconChild"
   },
   {
     "nome": "Suporte básico à vida Lactente",
+    "popular": "Reanimação Lactente",
     "tecnico": "BLS Lactente",
-    "pagina": "page-faq.html",
+    "pagina": "page-conteudo-blslactente.html",
     "icone": "iconBaby"
   },
   {
     "nome": "Suporte básico à vida Criança",
+    "popular": "Reanimação Criança",
     "tecnico": "BLS Criança",
     "pagina": "page-faq.html",
     "icone": "iconChild"
@@ -35,7 +39,8 @@ searchBar.addEventListener("keyup", (e) => {
     const filteredConteudos = percConteudos.filter( conteudo => {
         return (
         conteudo.nome.toLowerCase().includes(searchString) || 
-        conteudo.tecnico.toLowerCase().includes(searchString)
+        conteudo.tecnico.toLowerCase().includes(searchString) ||
+        conteudo.popular.toLowerCase().includes(searchString)
         );
     })
     mostrarConteudos(filteredConteudos);

@@ -5,13 +5,30 @@
   display: table;
   clear: both; }
 
-  #question-2, #question-3, #question-4, #question-5, #question-6{
+  #question-2, #question-3, #question-4, #question-5, #question-6, #navwhite{
     display: none;
   }
   
-  #progress_bar {
-    background-color: #018fd0;
-    width: 20%;
-    height: 10px;
-    transition: all 100ms ease-in-out;
+  .all-questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 16px;
+    position: absolute;
+    gap: 8px;
+    left: 0px;
   }
+
+  .question-style{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px 16px;
+  gap: 10px;
+  width: 343px;
+  height: 78px;
+border-bottom: 0.2px solid #062553;
+  }
+
