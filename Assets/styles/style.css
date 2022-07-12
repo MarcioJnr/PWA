@@ -174,7 +174,7 @@ p{
 
 .modalTwo .modal-content{
   border-radius: 15px;
-  margin-top: 82%;
+  margin-top: 65%;
   margin-left: 4.8%;
   width: 90%;
 }
@@ -193,7 +193,7 @@ p{
   width: 96%;
   height: 355px;
   margin-left: 1.8%;
-  margin-top: 65%;
+  margin-top: 50%;
 }
 
 button{
@@ -375,4 +375,36 @@ background-color: #FFFFFF;
   height: 64px;
   background: #FFFFFF;
   border-bottom: 0.2px solid #062553;
+}
+
+.all-numbers-emergency{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
+  height: 214px;
+  border-radius: 6px;
+}
+
+.title-numbers-emergency{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 55px 0px 16px;
+  gap: 8px;
+  height: 24px;
+}
+
+
+.numbers-emergency{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 25px 8px 24px;
+  gap: 43%;
+  height: 36px;
+  width: 90%;
+  border-bottom: 0.5px solid #0D6EFD;
 }
