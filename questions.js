@@ -85,7 +85,7 @@ nextquestion.addEventListener('click', function(){
             document.getElementById("printtotalscore").innerHTML = totalScore();
         }
         else{
-            document.getElementById("printtotalscore2").innerHTML = "Você não respondeu todas as questões"
+            document.getElementById("printtotalscore2").innerHTML = "Porém não respondeu todas as questões"
             document.getElementById("printtotalscore2").style.color = "red"
         }
     }
