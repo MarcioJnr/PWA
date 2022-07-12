@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Sammakko</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="Assets/bootstrapfiles/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="Assets/styles/nav.css">
+    <link rel="stylesheet" href="Assets/styles/style.css">
+</head>
+<body>
+    <!-- Botoes-Top -->
+  <!-- Navbar Top -->
+  <div class="nav-top px-3 bg-color">
+    <div class="nav-top-names">
+      <h2 class="text-top-color mt-1">Emergência</h2>
+      
+    </div>
+  <a id="bt-mais" data-bs-toggle="modal" href="#myModal1">
+    <img src="Assets/images/bt-mais-branco.svg"></img>
+  </a>
+</div>
+  <div class="container px-3 mt-3 pb-4">
+      <!-- Modal -->
+      <div class="modalOne">
+        <div class="modal fade" id="myModal1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <a href="page-faq.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-faq.svg" alt="">
+                      <h3 class="mt-1">FAQ</h3>
+                    </a>
+                    <a href="page-configuracoes.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-settings.svg" alt="">
+                      <h3 class="mt-1">Configurações</h3>
+                    </a> 
+                    <a href="page-sobre.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-about.svg" alt="">
+                      <h3 class="mt-1">Sobre</h3>
+                    </a>
+                    <a class="modal-items name-sections" data-bs-toggle="modal" href="#myModal2">
+                      <img src="Assets/images/icon-logout.svg" alt="">
+                      <h3 class="mt-1">Sair</h3>
+                    </a>   
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modalTwo">
+        <div class="modal" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body mx-2">
+                <h2 class="mt-2 mb-3">Sair do aplicativo</h2>
+                <p>Essa ação levará você para a saída
+                  do aplicativo de Primeiros Socorros. Deseja realmente sair?</p>
+                <div class="items-modalTwo">
+                  <a data-bs-dismiss="modal"><p class="txt-color1">Cancelar</p></a>
+                  <a onclick="closeApp();"><p class="txt-color1">Sair</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Navbar Top -->
+    <div class="container px-3 mt-4">
+        <h3 class="txt-cont-title">Suporte Básico à Vida em bebês<span class="d-block">(BLS lactente)</span></h3>
+    </div>
+    <div class="bls-conteudos-3 mb-4 mt-5">
+        <img src="Assets/images/numero1.svg" alt="">
+        <h5 class="txt-cont-title"><b>Avaliar a segurança do local</b>
+            <span class="d-block">
+                Cheque a segurança da cena. O local deve ser seguro para o socorrista e para a vítima.
+            </span>
+        </h5>
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero2.svg" alt="">
+        <h5 class="txt-cont-title"><b>Testar se a vítima responde</b>
+            <span class="d-block">
+                Chame pela vítima e dê tapas no pé do bebê, verifique se há resposta.
+            </span>
+        </h5>
+    </div>
+    <div class="center response mb-4">
+        <img src="Assets/images/emergencia-bls1.png" alt="">
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero3.svg" alt="">
+        <h5 class="txt-cont-title"><b>Chamar ajuda do serviço de emergência</b>
+            <span class="d-block">
+                Caso não haja resposta, você deve acionar o SAMU (ligar 192) e peça uma ambulância.
+            </span>
+        </h5>
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero4.svg" alt="">
+        <h5 class="txt-cont-title"><b>Checar os sinais vitais</b>
+            <span class="d-block">
+                Checar respiração e pulso. Observar se o tórax do lactente se eleva e retorna a posição inicial e palpar o pulso da artéria braquial.
+            </span>
+        </h5>
+    </div>
+    <div class="center response mb-4">
+        <img src="Assets/images/emergencia-bls2.png" alt="">
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero5.svg" alt="">
+        <h5 class="txt-cont-title"><b>Se pulso presente e respiração ausente</b>
+            <span class="d-block">
+                Iniciar as ventilações de resgate na frequência de uma ventilação a cada 2 ou 3 segundos. Reavaliar o pulso a cada 2 minutos. Se presente, continuar as ventilações de resgate; se ausente, iniciar a RCP.
+            </span>
+        </h5>
+    </div>
+    <div class="center response mb-4">
+        <img src="Assets/images/emergencia-bls3.png" alt="">
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero6.svg" alt="">
+        <h5 class="txt-cont-title"><b>Se pulso ausente</b>
+            <span class="d-block">
+                Se pulso ausente ou frequência cardíaca menor que 60 batimentos/minuto com sinais de perfusão deficiente (palidez, cianose, extremidades frias e diminuição da consciência), iniciar a RCP.
+            </span>
+        </h5>
+    </div>
+    <div class="center response mb-5">
+        <img src="Assets/images/emergencia-bls4.png" alt="">
+    </div>
+    
+    <h5 class="txt-cont-title ms-2 mb-4"><b>Atenção!</b>
+        <span class="d-block">
+            Deve-se abrir a via aérea. As duas técnicas para abertura de via aérea em lactentes são a elevação do queixo e a anteriorização da mandíbula. Caso exista suspeita de lesão cervical, realizar apenas a anteriorização da mandíbula.
+        </span>
+    </h5>
+    <h5 class="txt-cont-title ms-2 mb-4">
+        <b>Conceitos importantes para fixar na RCP de lactentes</b>
+    </h5>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero1.svg" alt="">
+        <h5 class="txt-cont-title">Na presença de apenas um socorrista, realizar as compressões-ventilações na relação 30:2. Na presença de dois socorristas, a relação deve ser de 15:2.</h5>
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero2.svg" alt="">
+        <h5 class="txt-cont-title">Assim como em adultos, a frequência das compressões deve ser de 100 a 120 compressões por minuto.</h5>
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero3.svg" alt="">
+        <h5 class="txt-cont-title">Em bebês, deve-se comprimir um terço do diâmetro anteroposterior do tórax, o que equivale a aproximadamente 4 cm.</h5>
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero4.svg" alt="">
+        <h5 class="txt-cont-title">Permitir o retorno completo do tórax à posição inicial entre as compressões.</h5>
+    </div>
+    <div class="bls-conteudos-3 mb-4">
+        <img src="Assets/images/numero5.svg" alt="">
+        <h5 class="txt-cont-title">Minimizar ao máximo as interrupções. Menor tempo de interrupção acarreta em melhores resultados.</h5>
+    </div>
+    <h5 class="txt-cont-title ms-2">
+        Caso haja somente um socorrista, deve ser usada a técnica dos dois dedos.  Em caso de dois socorristas disponíveis, é preferível a técnica dos dois polegares-mão.
+    </h5>
+</div>
+    <!-- NavBar -->
+    <nav class="nav">
+      <a href="index.html" class="nav__link">
+          <img src="Assets/images/home.svg" class="nav__icon"></img>
+          <span class="nav__text">Início</span>
+      </a>
+      <a href="page-pesquisa.html" class="nav__link">
+          <img src="Assets/images/search.svg" class="nav__icon"></img>
+          <span class="nav__text">Busca</span>
+      </a>
+      <a href="page-emergencia.html" class="nav__link nav__link--active">
+          <img src="Assets/images/emergency-On.svg" class="nav__icon"></img>
+          <span class="nav__text">Emergência</span>
+      </a>
+      <a href="page-testes.html" class="nav__link">
+          <img src="Assets/images/test.svg" class="nav__icon"></img>
+          <span class="nav__text">Teste</span>
+      </a>
+    </nav>
+    <!-- NavBar -->
+    <!-- Scripts Only -->
+    <script src="Assets/bootstrapfiles/jquery/dist/jquery.js"></script>
+    <script src="Assets/bootstrapfiles/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
