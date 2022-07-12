@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Sammakko</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="Assets/bootstrapfiles/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="Assets/styles/nav.css">
+    <link rel="stylesheet" href="Assets/styles/style.css">
+    <link rel="stylesheet" href="Assets/styles/questions.css">
+</head>
+<body>
+  <div class="nav-top px-3 bg-color" id="navblue">
+    <div class="nav-top-names mt-2">
+      <h2 class="text-top-color">BLS - Lactente</h2>
+    </div>
+    <a id="bt-mais" data-bs-toggle="modal" href="#myModal1">
+      <img src="Assets/images/bt-mais-branco.svg"></img>
+    </a>
+</div>
+<div class="nav-top px-3" id="navwhite">
+  <div class="nav-top-names">
+    <h2 class="txt-color1 mt-2">BLS Lactente</h2>
+  </div>
+</div>
+  <div class="container px-3 mt-3">
+      <!-- Modal -->
+      <div class="modalOne">
+        <div class="modal fade" id="myModal1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <a href="page-faq.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-faq.svg" alt="">
+                      <h3 class="mt-2">FAQ</h3>
+                    </a>
+                    <a href="page-configuracoes.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-settings.svg" alt="">
+                      <h3 class="mt-2">Configurações</h3>
+                    </a> 
+                    <a href="page-sobre.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-about.svg" alt="">
+                      <h3 class="mt-2">Sobre</h3>
+                    </a>
+                    <a class="modal-items name-sections" data-bs-toggle="modal" href="#myModal2">
+                      <img src="Assets/images/icon-logout.svg" alt="">
+                      <h3 class="mt-2">Sair</h3>
+                    </a>   
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modalTwo">
+        <div class="modal" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body mx-2">
+                <h1 class="mt-2 mb-3"><b>Sair do aplicativo</b></h1>
+                <h6>Essa ação levará você para a saída
+                  do aplicativo de Primeiros Socorros. Deseja realmente sair?</h6>
+                <div class="items-modalTwo mt-4">
+                  <a data-bs-dismiss="modal"><h6 class="txt-color1">Cancelar</h6></a>
+                  <a onclick="closeApp();"><h6 class="txt-color1">Sair</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Navbar Top --> 
+    <div class="container px-3 mt-3">
+                
+        <form class="questions_box">
+    
+          <div id="question-1">
+            <h3 class="txt-cont-title">1) Qual é a relação correta de compressão-ventilação para dois socorristas e uma criança de 6 anos de idade em parada cardiorrespiratória? </h3>
+            <div class="all-questions">
+              <label class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) 15 compressões para 1 ventilação</h4>
+                <input id="question-1-answer-a" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) 15 compressões para 2 ventilações</h4>
+                  <input id="question-1-answer-b" type="radio" name="favelang" value="1" style="position: absolute;">
+                </label>
+                <label class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) 30 compressões para 1 ventilação</h4>
+                  <input id="question-1-answer-c" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) 30 compressões para 2 ventilações</h4>
+                  <input id="question-1-answer-d" type="radio" name="favelang" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-2">
+            <h3 class="txt-cont-title">2) Qual a ordem correta de atendimento no caso de uma criança em parada cardiorrespiratória?</h3>
+            <div class="all-questions">
+              <label  class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) Checar responsividade- avaliar cena- ligar 192- checar sinais vitais- começar RCP- desfibrilação.</h4>
+                <input id="question-2-answer-a" type="radio" name="favelang2" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) Avaliar cena- checar responsividade- checar sinais vitais- ligar 192- começar RCP- desfibrilação.</h4>
+                  <input id="question-2-answer-b" type="radio" name="favelang2" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) Avaliar cena- checar responsividade- ligar 192- checar sinais vitais- começar RCP- desfibrilação.</h4>
+                  <input id="question-2-answer-c" type="radio" name="favelang2" value="1" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) Avaliar cena- checar sinais vitais- ligar 192- checar responsividade- começar RCP- desfibrilação.</h4>
+                  <input id="question-2-answer-d" type="radio" name="favelang2" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+        
+          <div id="question-3">
+            <h3 class="txt-cont-title">3) No caso de a criança se apresentar sem respiração, mas com pulso presente, o que devemos fazer?</h3>
+            <div class="all-questions mt-2">
+              <label  class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) Iniciar manobras de RCP</h4>
+                <input id="question-3-answer-a" type="radio" name="favelang3" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) Iniciar ventilações de resgate</h4>
+                  <input id="question-3-answer-b" type="radio" name="favelang3" value="1" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) Realizar a Manobra de Heimlich</h4>
+                  <input id="question-3-answer-c" type="radio" name="favelang3" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) Colocar a criança na posição lateral de segurança e aguardar o SAMU</h4>
+                  <input id="question-3-answer-d" type="radio" name="favelang3" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-4">
+            <h3 class="txt-cont-title">4) Sobre as compressões cardíacas, assinale o item que descreve as características de uma compressão cardíaca efetiva:</h3>
+            <div class="all-questions">
+              <label  class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) Compressões de profundidade equivalente a ½ do diâmetro anteroposterior do tórax</h4>
+                <input id="question-4-answer-a" type="radio" name="favelang4" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) Compressões de frequência variável, de acordo com a demanda do paciente</h4>
+                  <input id="question-4-answer-b" type="radio" name="favelang4" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) Compressões realizadas no ⅓ superior do esterno</h4>
+                  <input id="question-4-answer-c" type="radio" name="favelang4" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) Compressões com frequência de 100-120 bpm localizadas no ⅓ inferior do esterno</h4>
+                  <input id="question-4-answer-d" type="radio" name="favelang4" value="1" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h3 class="txt-cont-title">5) Sobre o Desfibrilador Externo Automático (DEA) assinale a alternativa correta:</h3>
+            <div class="all-questions">
+              <label  class="question-style">
+                <h4 class="txt-cont-title ms-4 mt-1">a) Deve ser utilizados apenas por profissionais capacitados, tendo em vista o risco de choque por parte de leigos</h4>
+                <input id="question-5-answer-a" type="radio" name="favelang5" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">b) O DEA é um dispositivo auto explicativo e pode ser utilizado pelo público leigo</h4>
+                  <input id="question-5-answer-b" type="radio" name="favelang5" value="1" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">c) Na aplicação das pás do DEA deve-se interromper as compressões</h4>
+                  <input id="question-5-answer-c" type="radio" name="favelang5" value="0" style="position: absolute;">
+                </label>
+                <label  class="question-style">
+                  <h4 class="txt-cont-title ms-4 mt-1">d) O DEA só deve ser utilizado dentro do ambiente hospitalar</h4>
+                  <input id="question-5-answer-d" type="radio" name="favelang5" value="0" style="position: absolute;">
+                </label>
+            </div>  
+      <div class="clearfix"></div>
+          </div>
+
+          <div id="question-6"> 
+            <div class="container px-3">
+             <div class="bls-conteudos-2 text-center">
+                 <img src="Assets/images/concluido.svg" class="mt-5" alt="">
+                 <h4 class="txt-cont-title mt-4">Você concluiu o teste!</h4>
+                 <h4 id="printtotalscore2">Você acertou <span id="printtotalscore"></span> das questões.</h4>
+             </div>
+             <div class="bts-conteudos">
+               <a href="page-testes.html" id="bt-prosseguir-conteudo"><span class="text-top-color">VER OUTROS TESTES</span></a>
+               <a href="index.html" id="bt-voltar-video" class=" mt-4"><span class="txt-color2">TELA INICIAL</span></a>
+             </div>
+           </div> 
+          </div>   
+      </form>
+      </div>
+
+
+    
+      <div class="slider" id="slidezin">
+        <div class="slider-box-center"><h3 class="slider-text txt-color1" id="page-question">1/5</h3></div>  
+            <a id="previous-question">
+          <div class="slider-box"></div>
+          <img src="Assets/images/seta-esquerda-on.svg" class="slider-arrow-left" alt="">
+          </a>    
+          <a id="next-question">
+            <div class="slider-box"></div>
+            <img src="Assets/images/seta-direita-on.svg" class="slider-arrow-right" alt="">
+            </a>
+    </div>
+    <!-- Scripts Only -->
+    <script src="Assets/bootstrapfiles/jquery/dist/jquery.js"></script>
+    <script src="Assets/bootstrapfiles/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
