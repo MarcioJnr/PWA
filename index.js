@@ -12,10 +12,10 @@ async function registerSW(){
     }
 }
 
-function closeApp(){
-    window.open(location.href, "_self", "");
-    window.close()
-}
+const closeApp = () => {
+    window.open('your current page URL', '_self', '');
+window.close();
+   }
 
 $("#myModal2").on('show.bs.modal', function (e) {
     $("#myModal1").modal("hide");
