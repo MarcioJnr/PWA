@@ -71,6 +71,7 @@
       <th class="tg-c3ow"><span style="text-align: center; font-weight:bold">Requisitos Funcionais Fundamentais</span></th>
       <th class="tg-c3ow"><span style="text-align: center; font-weight:bold">Descrição</span></th>
       <th class="tg-c3ow"><span style="text-align: center; font-weight:bold">Codificação</span></th>
+      <th class="tg-c3ow"><span style="text-align: center; font-weight:bold">Situação</span></th>
     </tr>
   </thead>
   <tbody>
@@ -78,31 +79,114 @@
       <td class="tg-0lax"><span style="font-weight:bold">RF0001 -</span> Ir para Pesquisa</td>
       <td class="tg-0lax" style="text-align: center;">O usuário pode acessar uma tela exclusiva para pesquisar, através de um botão</td>
       <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-pesquisa.html" target="_blank" rel="noopener noreferrer">código</a></td>
-    </tr>                                                                       
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><span style="font-weight:bold">RF0002 -</span> Barra de pesquisa</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode pesquisar através de palavras chaves ou pelo próprio nome do conteúdo</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-pesquisa.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>  
+    <tr>
+      <td class="tg-0lax"><span style="font-weight:bold">RF0003 -</span> Filtrar pesquisa</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode encontrar o conteúdo através de palavras chaves, transformando a pesquisa mais dinâmica e simples para todos</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/search.js" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0004 -</span> Acessar área de visão geral do conteúdo</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode visualizar um pequeno trecho do conteúdo abaixo do vídeo, tendo a possibilidade de ler mais e se aprofundar no conteúdo</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-conteudo-blslactente.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0005 -</span> Assistir vídeos</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode assistir vídeos didáticos dentro do aplicativo disponilibizados pelo PERC</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-conteudo-blslactente.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0006 -</span> Acessar área de questionário</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode acessar a área de perguntas e respostas(testes) através de um botão na barra de navegação ou após a exibição de um conteúdo</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-testes.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0007 -</span> Responder questionário</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode responder as perguntas propostas em cada conteúdo e no final consegue verificar a quantidade de acertos</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-testes.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0008 -</span> Acessar conteúdo em texto</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode assistir ao vídeo do conteúdo mas também pode visualizar textualmente sobre aquele assunto</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-conteudo-blslactente.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0009 -</span> Seção de emergência</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode acessar a seção de emergência através de um botão na barra de navegação</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-emergencia.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0010 -</span> Visualizar números de emergência</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode visualizar alguns números importantes em caso de situação de emergência, como o SAMU ou os Bombeiros</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-emergencia.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0011 -</span> Acessar passos simples de primeiros socorros ilustrados</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode acessar a área de emergência de cada conteúdo individualmente, contendo um tutorial a ser seguido em cada situação</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-emergencia.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <td class="tg-0lax"><span style="font-weight:bold">RF0012 -</span> Acessar página de “sobre”</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode acessar a página de sobre para saber mais sobre o PERC ou em relação aos desenvolvedores do aplicativo</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-sobre.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
     <tr>
       <td class="tg-0lax"><span style="font-weight:bold">RF0013 -</span> Barra de navegação</td>
       <td class="tg-0lax" style="text-align: center;">O usuário navegar entre as telas com através da barra de navegação inferior</td>
-      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-home.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/Assets/styles/nav.css" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
     </tr>
      <tr>
       <td class="tg-0pky"><span style="font-weight:bold">RF0014 -</span> Ir para Home</td>
       <td class="tg-c3ow" style="text-align: center;">O usuário pode ir para página home a partir de qualquer tela</td>
-      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-home.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/index.html" target="_blank" rel="noopener noreferrer">código</a></td>
+     <td class="tg-0lax" style="text-align: center;">Feito</td>
     </tr>
     <tr>
       <td class="tg-0pky"><span style="font-weight:bold">RF0015 -</span> Carrossel de conteúdos principais/em destaque</td>
       <td class="tg-c3ow" style="text-align: center;">O usuário visualiza logo na tela inicial os conteúdos principais através de um carrossel</td>
-      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-home.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/index.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><span style="font-weight:bold">RF0016 -</span> Configurações</td>
+      <td class="tg-c3ow" style="text-align: center;">O usuário pode acessar o menu para acessar a página de configurações, contendo alguns dados mais técnicos do app e dando a possibilidade de ver na loja</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-configuracoes.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><span style="font-weight:bold">RF0017 -</span> Menu extra com mais opções</td>
+      <td class="tg-c3ow" style="text-align: center;">O usuário pode acessar um menu extra no canto superior direito, liberando mais três opções de acesso no aplicativo, e também a possibilidade de sair</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/index.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
     </tr>
     <tr>
       <td class="tg-0pky"><span style="font-weight:bold">RF0018 - </span>FAQ</td>
       <td class="tg-0pky" style="text-align: center;">O usuário pode acessar uma página com perguntas frequentes</td>
       <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-faq.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
     </tr>
     <tr>
       <td class="tg-0pky"><span style="font-weight:bold">RF0019 - </span>Efeito acordeão na seção de FAQ</td>
       <td class="tg-0pky" style="text-align: center;">O usuário visualiza as perguntas e respostas através de uma interatividade de fechar e abrir a aba do texto</td>
       <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-faq.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
     </tr>
   </tbody>
 </table>
