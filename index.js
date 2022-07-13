@@ -13,9 +13,9 @@ async function registerSW(){
 }
 
 const closeApp = () => {
-    window.open('your current page URL', '_self', '');
-window.close();
-   }
+    window.open('', '_self', '');
+    window.close();
+}
 
 $("#myModal2").on('show.bs.modal', function (e) {
     $("#myModal1").modal("hide");
