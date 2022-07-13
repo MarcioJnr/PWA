@@ -186,6 +186,7 @@
       <td class="tg-0pky"><span style="font-weight:bold">RF0019 - </span>Efeito acordeão na seção de FAQ</td>
       <td class="tg-0pky" style="text-align: center;">O usuário visualiza as perguntas e respostas através de uma interatividade de fechar e abrir a aba do texto</td>
       <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-faq.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax" style="text-align: center;">Feito</td>
     </tr>
   </tbody>
 </table>
