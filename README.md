@@ -11,35 +11,35 @@
       <a target="_blank" href="#">
         <img src="Assets/images/ivina.jpg" alt="Ívina Lara"
           style="object-fit: cover; width="75px" height="75px" /><br/>
-        <sub><b>Ívina Lara [507804]</b></sub>
+        <sub><b>Ívina Lara</b></sub>
       </a><br/>
      </td>
      <td align="center">
       <a target="_blank" href="#">
         <img src="Assets/images/gabriel.jpg" alt="Gabriel Santana"
           style="object-fit: cover; width="75px" height="75px" /><br/>
-        <sub><b>Gabriel Santana [507800]</b></sub>
+        <sub><b>Gabriel Santana</b></sub>
       </a><br/>
      </td>
      <td align="center">
       <a target="_blank" href="#">
         <img src="Assets/images/thiago.jpeg" alt="Thiago Pires"
           style="object-fit: cover; width="75px" height="75px" /><br/>
-        <sub><b>Thiago Pires [494756]</b></sub>
+        <sub><b>Thiago Pires</b></sub>
       </a><br/>
      </td>
      <td align="center">
       <a target="_blank" href="#">
         <img src="Assets/images/marcio.jpeg" alt="Francisco Márcio"
           style="object-fit: cover; width="75px" height="75px" /><br/>
-        <sub><b>Francisco Márcio [511770]</b></sub>
+        <sub><b>Francisco Márcio</b></sub>
       </a><br/>
      </td>
     <td align="center">
       <a target="_blank" href="#">
         <img src="Assets/images/levi.jpeg" alt="Levi Ferreira"
           style="object-fit: cover; width="75px" height="75px" /><br/>
-        <sub><b>Levi Ferreira [509671]</b></sub>
+        <sub><b>Levi Ferreira</b></sub>
       </a><br/>
      </td>
   </tr>
