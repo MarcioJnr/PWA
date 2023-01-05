@@ -193,6 +193,9 @@
 
 ## Como executar
 
+Link para rodar o projeto no navegador:
+https://percps.netlify.app
+
 Clone o projeto e acesse a pasta.
 
 ```bash
